@@ -1,5 +1,5 @@
 # ChatbotRashi
-## Chatbot Link: https://t.me/TestRasMiner_bot
+## Chatbot Link: https://t.me/TestRasMiner_bot or https://console.dialogflow.com/api-client/demo/embedded/57044841-2f83-4c5c-887f-19a6c385d376
 ## Task:
 Create a chatbot (RashiMiners) deployed on Telegram for small talk and currency conversion.
 ## IDE: PyCharm
