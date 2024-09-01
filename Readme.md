@@ -45,11 +45,11 @@ Create a chatbot (RashiMiners) deployed on Telegram for small talk and currency 
 /newbot
 TestRasMiner
 TestRasMiner_bot
-10. Insert token in the ‘Telegram Token’ field and then click start.
-11. Search for TestRashiMiner and then /start to proceed chatting.
-12. Click on stop once done with chatting.
+10. In Dialogflow, insert the obtained token in the ‘Telegram Token’ field and then click start.
+11. Search for TestRashiMiner and then /start to proceed with chatting.
+12. Click on stop in Dialogflow once done with chatting.
 
-Note: Chatbot will be non-functional after sometime since ngrok link has limited validity. Also, free currency conversion API key is for one month only and may not work well at all times.
+Note: Free currency conversion API key may not always work well and is for one month only.
 ## Tools:
 * PyCharm
 * Dialogflow
