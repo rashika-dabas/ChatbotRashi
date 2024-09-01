@@ -49,7 +49,7 @@ TestRasMiner_bot
 11. Search for TestRashiMiner and then /start to proceed chatting.
 12. Click on stop once done with chatting.
 
-Note: Bot will be non-functional after sometime since ngrok link has limited validity. Also, free currency conversion API key is for one month only and may not work well at all times.
+Note: Chatbot will be non-functional after sometime since ngrok link has limited validity. Also, free currency conversion API key is for one month only and may not work well at all times.
 ## Tools:
 * PyCharm
 * Dialogflow
