@@ -4,7 +4,7 @@
 Create a chatbot deployed on Telegram for small talk and currency conversion.
 ## IDE: PyCharm
 ## Steps:
-* Create an API for currency conversion using https://www.currencyconverterapi.com/.
+* Create an API key for currency conversion using https://www.currencyconverterapi.com/.
 * Create an account/signup on Dialogflow platform by Google Cloud.
 * Create a new project rashiminers.
 * Go to Dialogflow ES and then create an agent RashiMiners.
