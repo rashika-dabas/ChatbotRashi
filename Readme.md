@@ -21,7 +21,7 @@ Create a chatbot (RashiMiners) deployed on Telegram for small talk and currency 
 * Do API testing via Postman software.
 * Open cmd as administrator and install ngrok -> choco install ngrok -> ngrok. (Ngrok needs antivirus to be disabled - Software + Firewall Settings)
 * After email-verification (create temporary email for safety), type the command from connect section (only once) & ngrok http 5000.
-* Open the obtained https link in browser (valid for limited time) and then copy it. In fulfillment section, enable webhook and paste copied link in webhook URL. Enable and save the option enable webhook call for this intent in currency-converter intent's fulfillment part.
+* Open the obtained https link in browser (valid for limited time => complete this step quickly) and then copy it. In fulfillment section, enable webhook and paste copied link in webhook URL. Enable and save the option enable webhook call for this intent in currency-converter intent's fulfillment part.
 * Now try the change statement in right pane.
 * You can see data below.
 * Open json viewer in web browser and copy raw response from diagnostic info there to understand currency-converter's intent call.
