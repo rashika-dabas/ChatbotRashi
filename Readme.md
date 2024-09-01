@@ -16,6 +16,7 @@ Create a chatbot deployed on Telegram for small talk and currency conversion.
 * Create a new project with venv (Python 3.7). .idea and venv folder will be automatically created.
 * In terminal having (venv), pip install flask. (Just install once in venv)
 * Create app.py file for creating app.
+* Add debug=True in () of app.run() in last line of app.py.
 * To run the app, use play button for app.py or in terminal write python app.py.
 * To stop the app, use stop button for app.py or in terminal, click on cross at top and then Terminate.
 * Do API testing via Postman software.
