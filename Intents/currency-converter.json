@@ -1,0 +1,156 @@
+{
+  "id": "21346bdd-db8c-4825-a4e8-8af0b905cb14",
+  "name": "currency-converter",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "unit-currency",
+          "dataType": "@sys.unit-currency",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Currency to be changed"
+          ],
+          "value": "$unit-currency",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "currency-name",
+          "dataType": "@sys.currency-name",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Currency to be changed into"
+          ],
+          "value": "$currency-name",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Server Down. Come afterwards."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "change ",
+          "userDefined": false
+        },
+        {
+          "text": "100 dollars",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "inr",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 0,
+      "id": "805a8eb7-abdd-49f3-bfcf-75b349775291",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "convert ",
+          "userDefined": false
+        },
+        {
+          "text": "10 dollars",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "pounds",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 0,
+      "id": "db6321ea-91dd-4263-ba9b-2ef73d3e2d9e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "change ",
+          "userDefined": false
+        },
+        {
+          "text": "20 dollars",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "inr",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 0,
+      "id": "9dd6318f-455e-4321-b08a-9e635614ad36",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
